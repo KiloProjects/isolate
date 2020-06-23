@@ -1,5 +1,6 @@
-isolate
-=======
+# isolate
+
+NOTE: This is a fork of the [original repository](https://github.com/ioi/isolate) stripped to the most important parts. I may modify this to better suit my needs.
 
 Isolate is a sandbox built to safely run untrusted executables,
 offering them a limited-access environment and preventing them from
@@ -25,5 +26,5 @@ is available online.
 To compile Isolate, you need the headers for the libcap library
 (usually available in a libcap-dev package).
 
-You may need `a2x` (found in [AsciiDoc](http://www.methods.co.nz/asciidoc/a2x.1.html)) for building manual.
+(NOTE: I removed the documentation, get it from the original repository) You may need `a2x` (found in [AsciiDoc](http://www.methods.co.nz/asciidoc/a2x.1.html)) for building manual.
 But if you only want the isolate binary, you can just run `make isolate`
