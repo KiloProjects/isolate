@@ -16,6 +16,7 @@ BOXDIR = $(VARPREFIX)/lib/isolate
 CC=gcc
 CFLAGS=-std=gnu99 -Wall -Wextra -Wno-parentheses -Wno-unused-result -Wno-missing-field-initializers -Wstrict-prototypes -Wmissing-prototypes -D_GNU_SOURCE -DCONFIG_FILE='"$(CONFIG)"'
 LIBS=-lcap
+LDFLAGS=-static
 
 
 isolate: isolate.o util.o rules.o cg.o config.o

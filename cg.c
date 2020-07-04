@@ -255,11 +255,11 @@ int cg_get_run_time_ms(void)
 
 void cg_stats(void)
 {
+    meta_printf("cg-enabled:%s\n", cg_enable ? "true" : "false");
     if (!cg_enable)
         return;
 
     char buf[CG_BUFSIZE];
-
     // Memory usage statistics
     unsigned long long mem = 0, memsw = 0;
     if (cg_read(CG_MEMORY, "?memory.max_usage_in_bytes", buf))
