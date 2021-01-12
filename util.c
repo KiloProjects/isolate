@@ -3,6 +3,8 @@
  *
  *	(c) 2012-2017 Martin Mares <mj@ucw.cz>
  *	(c) 2012-2014 Bernard Blackham <bernard@blackham.com.au>
+ *
+ *	(c) 2020-2021 Vasiluta Mihai-Alexandru <alexv@siluta.ro>
  */
 
 #include "isolate.h"

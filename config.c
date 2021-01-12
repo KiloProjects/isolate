@@ -2,6 +2,8 @@
  *	Process Isolator -- Configuration File
  *
  *	(c) 2016 Martin Mares <mj@ucw.cz>
+ *
+ *	(c) 2020-2021 Vasiluta Mihai-Alexandru <alexv@siluta.ro>
  */
 
 #include "isolate.h"

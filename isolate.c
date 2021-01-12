@@ -4,7 +4,7 @@
  *	(c) 2012-2020 Martin Mares <mj@ucw.cz>
  *	(c) 2012-2014 Bernard Blackham <bernard@blackham.com.au>
  *
- *  Small modifications by Vasiluta Mihai-Alexandru <alexv@siluta.ro>
+ *  (c) 2020-2021 Vasiluta Mihai-Alexandru <alexv@siluta.ro>
  */
 
 #include "isolate.h"
